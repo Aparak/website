@@ -41,6 +41,8 @@ template {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
+  color: #0091ea;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -449,8 +451,11 @@ a:hover {
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
-a {
-  display: block;
-  text-decoration: none;
-  color: #0091ea;
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.page-content {
+  padding-top: 3em;
 }
