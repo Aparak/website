@@ -20,10 +20,10 @@ const Footer = ({ siteTitle }) => (
         fontSize: ".85rem",
       }}
     >
-      <div style={{ color: COLORS.blue, fontWeight: 700 }}>
+      <div style={{ fontWeight: 700 }}>
         <a
-          style={{ textDecoration: "none" }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
+          style={{ textDecoration: "none", color: COLORS.gray, }}
+          href="mailto:support@aparak.com"
         >
           Contact Us
         </a>

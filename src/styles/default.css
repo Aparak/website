@@ -445,3 +445,12 @@ li > p {
     font-size: 100%;
   }
 }
+a:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #0091ea;
+}

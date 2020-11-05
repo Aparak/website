@@ -1,10 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Button from "../components/button"
+import app from "../images/app.svg"
 import headerImage from "../images/header.png"
-import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
+import logo from "../images/logo.svg"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -13,6 +12,7 @@ const Header = ({ siteTitle }) => (
       alignItems: "center",
       flexDirection: "column",
       padding: "4rem 1rem",
+      height: "100vh",
     }}
   >
     <div
@@ -26,29 +26,11 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
-    </p>
-    <Button>Get Early Access</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <MockupContent />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
-        <img
-          src={mockupFrame}
-          alt="outlines of shapes and confetti in the background "
-        />
-      </div>
-    </div>
+    <img style={{ width: "5.8em", marginTop: "5vh", }} src={logo} alt="Aparak logo" />
+    <h3 style={{ textAlign: "center", maxWidth: 440, marginTop: "10vh", }}>
+      We build applications for fun!
+    </h3>
+    <img style={{width: "25em", marginTop: "8vh", maxWidth: "90vh" }} src={app} alt="an app in a browser is floating over colorful graphics" />
   </div>
 )
 
