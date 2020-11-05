@@ -8,6 +8,7 @@ const Footer = ({ siteTitle }) => (
     style={{
       padding: "1rem",
       backgroundColor: COLORS.lightGray,
+      height: 100,
     }}
   >
     <div
@@ -22,7 +23,7 @@ const Footer = ({ siteTitle }) => (
     >
       <div style={{ fontWeight: 700 }}>
         <a
-          style={{ textDecoration: "none", color: COLORS.gray, }}
+          style={{ textDecoration: "none", color: COLORS.gray }}
           href="mailto:support@aparak.com"
         >
           Contact Us
