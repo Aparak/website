@@ -6,15 +6,14 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repo
         uses: actions/checkout@main
         with:
           persist-credentials: false
-
-      - name: Install and Build
-        run: |
-          npm install
-          npm run build
+      - name: Install Dependencies
+        run: npm install
+      - name: Build App
+        run: npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
