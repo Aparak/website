@@ -13,6 +13,7 @@ const Header = ({ siteTitle }) => (
       flexDirection: "column",
       padding: "4rem 1rem",
       height: "100vh",
+      minHeight: "600px",
     }}
   >
     <div

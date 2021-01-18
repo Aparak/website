@@ -10,6 +10,7 @@ const Content = () => (
     style={{
       textAlign: "center",
       height: "calc(100vh - 98px)",
+      minHeight: "800px",
       paddingTop: "5vw",
       paddingRight: "1rem",
       paddingLeft: "1rem",
@@ -44,7 +45,11 @@ const Content = () => (
           Google docs, plus planning poker in one app. Oh! Also, there is a
           timer that is synced among your teammates!
         </p>
-        <Link to="/live-collab">Read more...</Link>
+        <Link to="/live-collab">Read more about the app</Link>
+        <br/>
+        <Link to="/live-collab/privacy-policy">Our privacy policy</Link>
+        <br/>
+        <a href="https://auth.monday.com/marketplace/85" target="_blank" rel="noreferrer">Checkout our monday.com apps marketplace page!</a>
 
         <p style={{marginTop: 20}}>
           <a href="https://auth.monday.com/oauth2/authorize?client_id=4ec64528e2a4f5b6284d1011f6417f74&response_type=install">
