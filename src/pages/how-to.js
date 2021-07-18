@@ -3,6 +3,7 @@ import React from "react"
 import timer from "../images/timer.png"
 import estimation from "../images/estimation.png"
 import updates from "../images/updates.png"
+import "../styles/default.css"
 
 const HowTo = () => (
   <div>
@@ -29,19 +30,19 @@ const HowTo = () => (
       Teammates can type simultaneously, fix their typos, and highlight texts
       (think of it as a mini Google Docs).
     </p>
-    <img alt="Updates" height="100px" src={updates} />
+    <img alt="Updates" height="200px" src={updates} />
     <h3>Timer app</h3>
     <p>
       The timer keeps your story planning in check (time-wise), so your team
       won't go over time.
     </p>
-    <img alt="Timer App" height="100px" src={timer} />
+    <img alt="Timer App" height="200px" src={timer} />
     <h3>Estimation app</h3>
     <p>
       This app will help your team estimate tasks (think of it as planning
       poker, but you don't need to leave the monday.com app!)
     </p>
-    <img alt="Estimation App" height="100px" src={estimation} />
+    <img alt="Estimation App" height="200px" src={estimation} />
     <br />
   </div>
 )
