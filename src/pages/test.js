@@ -1,3 +1,7 @@
-const TestPage = () => <h1>TEST</h1>
+const TestPage = () => (
+  <Layout>
+    <h1>TEST</h1>
+  </Layout>
+)
 
 export default TestPage
